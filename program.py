@@ -1,3 +1,4 @@
+c = input().strip().upper()
 a = int(input())
 b = int(input())
 A = int(input())
@@ -10,7 +11,7 @@ d = B*M+b
 n = (e*d-1)/M
 
 
-if input().strip().upper() == 'E':
+if  c == 'E':
 	print(int(msj*e%n), end='')
 else:
 	print(int(msj*d%n), end='')
