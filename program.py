@@ -12,5 +12,5 @@ n = (e*d-1)/M
 
 if input().strip().upper() == 'E':
 	print(int(msj*e%n), end='')
-else
+else:
 	print(int(msj*d%n), end='')
